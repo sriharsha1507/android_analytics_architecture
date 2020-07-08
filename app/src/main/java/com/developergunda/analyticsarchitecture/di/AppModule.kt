@@ -3,7 +3,7 @@ package com.developergunda.analyticsarchitecture.di
 import android.content.Context
 import com.developergunda.lib.analytics.AnalyticsManager
 import com.developergunda.lib.analytics.AnalyticsService
-import com.developergunda.lib.analytics.provider.DebugAnalyticsService
+import com.developergunda.analyticsarchitecture.analytics.provider.DebugAnalyticsService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.developergunda.lib.analytics.provider
+package com.developergunda.analyticsarchitecture.analytics.provider
 
 import android.content.Context
 import com.developergunda.lib.analytics.AnalyticsService
