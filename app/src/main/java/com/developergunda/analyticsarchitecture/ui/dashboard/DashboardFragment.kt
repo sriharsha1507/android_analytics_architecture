@@ -14,18 +14,9 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_dashboard.*
 
 @AndroidEntryPoint
-class DashboardFragment : Fragment() {
+class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
 
     private val viewModel: DashboardViewModel by viewModels()
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
-        return root
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
