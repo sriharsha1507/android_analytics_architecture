@@ -13,7 +13,8 @@ class DebugAnalyticsService : AnalyticsService {
     }
 
     override fun log(event: AnalyticsEvent) {
-        Timber.d(" \n" +
-                "Event sent \nEvent Name : ${event.eventName}, \nParams: ${event.params}")
+        Timber.d("\n*-*-*-*-*-*-*-*-*-*-*\n" +
+                "Event sent \nEvent Name : ${event.eventName}, \nParams: ${event.params}" +
+                "\n*-*-*-*-*-*-*-*-*-*-*")
     }
 }
