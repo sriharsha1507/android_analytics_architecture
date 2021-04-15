@@ -3,6 +3,8 @@
   <a href="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
 </p>
 
+![Thumbnail](demo/demo.jpg)
+
 # Android Analytics Architecture
 Analytics are really helpful to the developer. It gives us more insights on users behavior towards the application and also helps you to develop features depending on their behavior
 and liking which gives more success to the developer.
